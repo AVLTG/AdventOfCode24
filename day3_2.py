@@ -21,7 +21,7 @@ def calculateConditionalMults():
                 product = x * y
                 total += product
 
-    print(total)
+    print("The total number of uncorrupted and conditioned multiplications is " + str(total))
 
 
 calculateConditionalMults()
